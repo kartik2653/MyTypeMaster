@@ -1,0 +1,109 @@
+/*Background video*/
+/* #videoDiv
+{
+    display: block;
+    margin: auto;
+} */
+body{
+    color: white;
+    position: relative;
+}
+#myVideo
+{
+    position:fixed;
+    min-height: 100%;
+    min-width:100% ;
+    z-index: -100;
+    /* transform: translate(-50% ,-50%); */
+     top: -50%;
+    left: -50%;
+     
+}
+#myContainer
+{
+    border: 3px solid white;
+    
+}
+#myFlexbox
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: space-between;
+}
+.container .jumbotron
+{
+    background:none;
+    color: wheat;
+    font-size:35px;
+    border: wheat 2px solid;
+    padding-bottom: 130px;
+    margin-top: 110px;
+}
+.jumbotron #myScore
+{
+    width: fit-content;
+    padding: 0px 10px;
+    float: left;
+    
+}
+#myLap
+{
+    width: 300px;
+    height: 100px;
+    float: right;
+    overflow-y: scroll;
+}
+#myTimer
+{
+    border-radius: 5px;
+    -moz-border-radius :5px;
+    -webkit-border-radius:5px;
+    padding:10px 10px;
+    padding-top: 17px;
+
+}
+#myQuestion ,#myInput
+{
+    width: 100%;
+    border: 2px solid wheat;
+    border-radius: 5px;
+    -moz-border-radius :5px;
+    -webkit-border-radius:5px;
+    height: 50px;
+    margin-top: 80px;
+    text-align: center;
+}
+#myInput
+{
+    border: none;
+}
+#myButtons
+{
+    margin-top: 30px;
+}
+#myButtons .btn-group .btn
+{
+    width:150px ;
+    height:60px;
+    font-size: x-large;
+}
+
+/*SCORE BOARD*/
+#myScoreBoard
+{
+    width: 45vw;
+    height: 35vh;
+    color: yellow;
+    background-color: brown;
+    border: 2px solid wheat;
+    /* margin: 50px auto; */
+    position: absolute;
+    top: 35%;
+    left: 27%;
+    display: none;
+    margin-top: 25%;
+    text-align: center;
+    padding-top: 7%;
+    font-size: x-large;
+}
