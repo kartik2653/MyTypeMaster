@@ -107,3 +107,35 @@ body{
     padding-top: 7%;
     font-size: x-large;
 }
+
+@media (max-width:576px)
+  {
+      #myButtons
+      {
+          display:flex;
+          flex-wrap: wrap;
+          flex-direction: column;
+          margin: 20px 35%;
+      }
+      #myButtons .btn-group #myStart 
+      {
+          height: 50px;
+      }
+      #myButtons .btn-group #myTryAgain 
+      {
+          height: 50px;
+      }
+
+      #myButtons .btn-group #myReset
+      {
+          height: 50px;
+      }
+      .container .jumbotron
+      {
+          margin-top: 45px;
+          padding-bottom: 180px;
+      }
+
+
+  }
+
